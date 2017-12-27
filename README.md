@@ -1,5 +1,5 @@
 # sms_client
-an async client for sms platform
+an async client for sms platform, header only and c++17 is needed.
 
 # quick example
 
