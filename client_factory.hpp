@@ -37,7 +37,7 @@ private:
 	}
 
 	void check() {
-		timer_.expires_from_now(boost::posix_time::seconds(3));
+		timer_.expires_from_now(boost::posix_time::seconds(10*60));
 		timer_.async_wait([this](boost::system::error_code const& ec) {
 			if (ec) {
 				return;
