@@ -3,7 +3,7 @@ an async client for sms platform
 
 # quick example
 
-  //the sms template definition is: std::string TEMPLATE_TEXT = u8"【xx科技】您的验证码是" in cons.h
+	//the sms template definition is: std::string TEMPLATE_TEXT = u8"【xx科技】您的验证码是" in cons.h
 	//notice: the text must be utf8
 	//本示例是以云片短信平台例子，你也可以很容易地修改为其他的短信平台，在cons.h中修改参数即可
 
@@ -17,4 +17,4 @@ an async client for sms platform
 		client->send(appkey, phone, code);
 	}
 
-  factory.run();
+  	factory.run();
